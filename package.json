@@ -1,0 +1,29 @@
+{
+    "name": "food",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "browserslist": [
+        "> 1%"
+    ],
+    "devDependencies": {
+        "@babel/cli": "^7.15.4",
+        "@babel/core": "^7.15.4",
+        "@babel/preset-env": "^7.15.4",
+        "babel-loader": "^8.2.2",
+        "core-js": "^2.6.12",
+        "webpack": "^4.44",
+        "webpack-cli": "^4.8.0"
+    },
+    "dependencies": {
+        "@babel/polyfill": "^7.12.1",
+        "es6-promise": "^4.2.8",
+        "nodelist-foreach-polyfill": "^1.2.0"
+    }
+}
