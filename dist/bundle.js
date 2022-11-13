@@ -1486,9 +1486,9 @@ process.umask = function() { return 0; };
 /***/ }),
 
 /***/ "./node_modules/webpack/buildin/global.js":
-/*!************************************************!*\
-  !*** ./node_modules/webpack/buildin/global.js ***!
-  \************************************************/
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2328,7 +2328,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalTimerId = setTimeout(() => Object(_modules_modal__WEBPACK_IMPORTED_MODULE_2__["openModal"])('.modal', modalTimerId), 15000);
   Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_1__["default"])('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
   Object(_modules_modal__WEBPACK_IMPORTED_MODULE_2__["default"])('[data-modal]', '.modal', modalTimerId);
-  Object(_modules_timer__WEBPACK_IMPORTED_MODULE_3__["default"])('.timer', '2021-10-12');
+  Object(_modules_timer__WEBPACK_IMPORTED_MODULE_3__["default"])('.timer', '2021-10-30');
   Object(_modules_cards__WEBPACK_IMPORTED_MODULE_4__["default"])();
   Object(_modules_calc__WEBPACK_IMPORTED_MODULE_5__["default"])();
   Object(_modules_forms__WEBPACK_IMPORTED_MODULE_6__["default"])('form', modalTimerId);
